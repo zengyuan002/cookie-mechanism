@@ -1,0 +1,2 @@
+# cookie-mechanism
+JavaScript中的另一个机制：cookie，则可以达到真正全局变量的要求。 cookie是浏览器 提供的一种机制，它将document 对象的cookie属性提供给JavaScript。可以由JavaScript对其进行控制，而并不是JavaScript本身的性质。
