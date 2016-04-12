@@ -1,4 +1,4 @@
-# cookie-mechanism
+# js中cookie的使用详细分析
 JavaScript中的另一个机制：cookie，则可以达到真正全局变量的要求。 cookie是浏览器 提供的一种机制，它将document 对象的cookie属性提供给JavaScript。可以由JavaScript对其进行控制，而并不是JavaScript本身的性质。
 
 cookie机制将信息存储于用户硬盘，因此可以作为全局变量，这是它最大的一个优点。它可以用于以下几种场合。 
@@ -43,3 +43,4 @@ document.cookie="userId=828; userName=hulk; expires="+date.toGMTString();
 //--> 
 </script>
 ```
+cookie详细介绍地址：http://www.jb51.net/article/14566.htm
